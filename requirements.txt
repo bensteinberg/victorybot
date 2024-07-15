@@ -1,9 +1,9 @@
-async-timeout==4.0.3 ; python_version >= "3.9" and python_full_version <= "3.11.2" \
+async-timeout==4.0.3 ; python_version >= "3.9" and python_full_version < "3.11.3" \
     --hash=sha256:4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f \
     --hash=sha256:7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028
-redis==4.6.0 ; python_version >= "3.9" and python_version < "4.0" \
-    --hash=sha256:585dc516b9eb042a619ef0a39c3d7d55fe81bdb4df09a52c9cdde0d07bf1aa7d \
-    --hash=sha256:e2b03db868160ee4591de3cb90d40ebb50a90dd302138775937f6a42b7ed183c
+redis==5.0.7 ; python_version >= "3.9" and python_version < "4.0" \
+    --hash=sha256:0e479e24da960c690be5d9b96d21f7b918a98c0cf49af3b6fafaa0753f93a0db \
+    --hash=sha256:8f611490b93c8109b50adc317b31bfd84fff31def3475b92e7e80bf39f48175b
 slack-bolt==1.19.1 ; python_version >= "3.9" and python_version < "4.0" \
     --hash=sha256:a3041d8f49eba22c3be4dd8f57602d6685d367c0e1cc7619260e1ce4a363d07f \
     --hash=sha256:b916829ece0ff7a2cae1502f1774fd100592cd8a81a39e4f04e3137a3f19522b
