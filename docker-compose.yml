@@ -2,14 +2,14 @@ version: '2'
 
 services:
   redis:
-    image: registry.lil.tools/library/redis:4.0.6
+    image: registry.lil.tools/library/redis:5.0.6
     volumes:
       - redis_data:/data:delegated
   web:
     build:
       context: .
       dockerfile: ./Dockerfile
-    image: victorybot:0.1.1
+    image: victorybot:0.1.2
     tty: true
     environment:
       - REDIS_URL=redis://redis:6379/0
